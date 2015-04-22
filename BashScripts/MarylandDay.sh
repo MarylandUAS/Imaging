@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'Connected'
+echo 'Connected Successfully'
 echo 'Starting syncthing...'
 xterm -e '.Documents/syncthing-linux-arm-v0.10.29/syncthing' &
 echo 'Syncthing started'
