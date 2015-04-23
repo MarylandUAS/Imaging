@@ -20,7 +20,7 @@ i=$((i+1))
 fi
 done
 echo 'Done'
-read -r -p 'Want to delete photos? [y/n]: ' delete
+read -r -p "Want to delete photos? [y/n]: " delete
 if [[ $delete == "y" ]]
 then
 gphoto2 -RD
