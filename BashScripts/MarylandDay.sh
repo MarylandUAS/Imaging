@@ -27,7 +27,7 @@ gphoto2 -RD
 fi
 echo 'Photos deleted'
 killall xterm
-killall chromium-brower
+killall chromium-browser
 
 
 
