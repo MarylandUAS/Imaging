@@ -20,6 +20,14 @@ i=$((i+1))
 fi
 done
 echo 'Done'
+read -r -p 'Want to delete photos? [y/n]: ' delete
+if [[ $delete == "y" ]]
+then
+gphoto2 -RD
+fi
+echo 'Photos deleted'
+killall xterm
+killall chromium-brower
 
 
 
