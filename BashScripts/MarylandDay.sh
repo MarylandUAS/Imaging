@@ -3,7 +3,7 @@ echo 'Connected Successfully'
 echo 'Starting syncthing...'
 xterm -e './Documents/syncthing-linux-arm-v0.10.29/syncthing' &
 echo 'Syncthing started'
-cd Test
+cd ~/Test
 i=1
 while(true)
 do
