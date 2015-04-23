@@ -1,7 +1,7 @@
 #!/bin/bash
 echo 'Connected'
 echo 'Starting syncthing...'
-xterm -e '.Documents/syncthing-linux-arm-v0.10.29/syncthing' &
+xterm -e './Documents/syncthing-linux-arm-v0.10.29/syncthing' &
 echo 'Syncthing started'
 cd Test
 while(true)
